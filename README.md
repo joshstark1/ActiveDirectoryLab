@@ -1,22 +1,19 @@
-# <h1>Active Directory Home Lab</h1>
-
- ### [YouTube Demonstration](https://youtu.be/7eJexJVCqJo)
+# <h1>JWipe - Disk Sanitization</h1>
 
 <h2>Description</h2>
 
-In this lab, we’ll walk through the process of setting up an Active Directory home lab environment using Oracle VirtualBox. Building and configuring this lab is a great way to strengthen your understanding of Active Directory and Windows networking. I highly recommend going through it more than once, asking questions if anything is unclear, and eventually challenging yourself to set it up on your own without the walkthrough.
+Project consists of a simple PowerShell script that walks users through "zeroing out" (wiping) any drives that are connected to the system. The utility allows you to select the target disk and choose the number of passes that are performed. The PowerShell script will configure a diskpart script file based on the user's selections and then launch Diskpart to perform the disk sanitization.
 <br />
 
 
 <h2>Languages and Utilities Used</h2>
 
 - <b>PowerShell</b> 
-- <b>Oracle Virtual Box</b>
+- <b>Diskpart</b>
 
 <h2>Environments Used </h2>
 
 - <b>Windows 10</b>
-- <b>Windows Server 2019</b>
 
 <h2>Program walk-through:</h2>
 
